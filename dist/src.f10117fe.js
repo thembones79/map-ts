@@ -85177,7 +85177,7 @@ var CustomMap =
 function () {
   function CustomMap(divId) {
     this.googleMap = new google.maps.Map(document.getElementById(divId), {
-      zoom: 1,
+      zoom: 1.9,
       center: {
         lat: 0,
         lng: 0
@@ -85253,7 +85253,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52830" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56586" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
